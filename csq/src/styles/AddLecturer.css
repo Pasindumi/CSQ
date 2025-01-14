@@ -8,7 +8,14 @@ body {
 
 .add-lecturer-page {
   padding: 20px;
+  display: flex;
 }
+.form-container-with-sidebar {
+  margin-left: 250px; /* Same as sidebar width */
+  padding: 20px;
+  width: calc(100% - 250px);
+}
+
 
 .form-container {
   background-color: #ffffff;
@@ -16,10 +23,11 @@ body {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  max-width: 800px;
+  width: 900px;
   margin: auto;
   position: relative;
   top: 100px;
+  left: 150px;
 }
 
 h1 {
@@ -68,12 +76,20 @@ button {
 }
 
 .add-btn {
-  background-color: #28a745;
+  background-color: #00e4f9;
   color: white;
 }
 
 .remove-btn {
-  background-color: #dc3545;
+  background-color: #00e4f9;
   color: white;
   margin-left: 10px;
+}
+.add-btn:hover {
+
+  background-color: #077984;
+
+}
+.remove-btn:hover{
+  background-color: rgb(234, 61, 61);
 }
