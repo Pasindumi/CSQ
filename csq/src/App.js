@@ -4,12 +4,16 @@ import AddLecturer from "./components/AddLecturer";
 import Sidebar from "./components/Sidebar";
 import Forms from './components/Forms';
 import "./App.css"; // Add global styles here
+import LoginSignup from "./components/LoginSignup";
+import "./App.css"; 
+import Navbar from "./components/navbar";
 
 function App() {
   return (
     <Router>
       <div className="app-layout">
         <Sidebar />
+        <Navbar/>
         <div className="main-content">
           <Routes>
             <Route path="/add-lecturer" element={<AddLecturer />} />
@@ -17,6 +21,11 @@ function App() {
           <Routes>
             <Route path="/Forms" element={<Forms />} />
           </Routes>
+          <Routes>
+            <Route path="/LoginSignup" element={<LoginSignup />} />
+          </Routes>
+
+          
         </div>
       </div>
     </Router>
