@@ -3,9 +3,9 @@
          background: rgb(203, 217, 255);
          width: 100%;
          max-width: 400px;
-         margin: 50px auto;
+         margin: 80px 400px;
          padding: 30px;
-         border-radius: 10px;
+         border-radius: 0px;
          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
          text-align: center;
        }
@@ -28,6 +28,19 @@
          margin: 10px auto;
          border-radius: 3px;
        }
+
+
+       .image img {
+        width: 340px; 
+        height: 420px; 
+        object-fit: cover; 
+        position: absolute; 
+        top: 163px; 
+        left: 860px; 
+      }
+      
+
+       
        
       
        .inputs {
@@ -101,6 +114,14 @@
        
        button:hover {
          opacity: 0.9;
+       }
+
+       .forgot_password{
+        color: #007BFF;
+       }
+
+       .forgot_password.span{
+        color: #000000;
        }
        
        

@@ -5,16 +5,16 @@ const cors = require("cors");
 
 const app = express();
 
-// Middleware
+
 app.use(cors());
 app.use(bodyParser.json());
 
-// MySQL Connection
+
 const db = mysql.createConnection({
   host: "localhost",
-  user: "root", // Default MySQL username
-  password: "", // Default MySQL password
-  database: "csq_database", // Your database name
+  user: "root", 
+  password: "", 
+  database: "csq_database", 
 });
 
 db.connect((err) => {
@@ -25,7 +25,8 @@ db.connect((err) => {
   console.log("Connected to MySQL database!");
 });
 
-// Route to handle SignUp
+
+
 app.post("/signup", (req, res) => {
   const { user, email, password } = req.body;
 
@@ -44,7 +45,7 @@ app.post("/signup", (req, res) => {
   });
 });
 
-// Start Server
+
 const PORT = 5000;
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);

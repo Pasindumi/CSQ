@@ -4,7 +4,8 @@ import '../styles/LoginSignup.css';
 
 import user_icon from '../components/assets/name.png';
 import email_icon from '../components/assets/email.png';
-import password_icon from '../components/assets/password.png';
+import password_icon from '../components/assets/password.png'; 
+import loginimage from '../components/assets/image.webp';
 
 const LoginSignup = () => {
   const [formData, setFormData] = useState({ user: '', email: '', password: '' });
@@ -25,6 +26,7 @@ const LoginSignup = () => {
   };
 
   return (
+    <div>
     <div className='container'>
       <div className='header'>
         <div className="text">SignUp</div>
@@ -64,12 +66,23 @@ const LoginSignup = () => {
           />
         </div>
       </div>
+
+      
+
       <div className="forgot_password">Lost Password? <span>Click Here!</span></div>
       <div>
         <button className="signup" onClick={handleSignup}>Sign Up</button>
         <button className="login">Login</button>
       </div>
+
+     
+      
     </div>
+ <div className="image" >
+ <img src={loginimage} alt="Login Image" />
+</div>
+</div>
+
   );
 };
 
