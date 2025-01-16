@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import Sidebar from "./Sidebar"; 
 import "../styles/AddLecturer.css"; // External CSS for better styling
 
 const AddLecturer = () => {
@@ -62,6 +63,9 @@ const AddLecturer = () => {
 
   return (
     <div className="add-lecturer-page">
+       <Sidebar />
+       
+      
       <div className="form-container">
         <h1>Add New Lecturer</h1>
         <form onSubmit={handleSubmit} encType="multipart/form-data">
@@ -172,6 +176,7 @@ const AddLecturer = () => {
         </form>
       </div>
     </div>
+    
   );
 };
 
