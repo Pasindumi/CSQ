@@ -17,7 +17,7 @@ const LoginSignup = () => {
   const handleSignup = async () => {
     try {
       const response = await axios.post('http://localhost:5000/signup', formData);
-      alert(response.data); // Display success message
+      alert(response.data); 
     } catch (error) {
       console.error("Error during signup:", error);
       alert("Error signing up. Please try again.");

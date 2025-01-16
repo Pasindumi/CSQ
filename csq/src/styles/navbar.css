@@ -19,8 +19,8 @@ body, ul, li, a {
          justify-content: space-between;
          align-items: center;
          padding: 5px 20px;
-         background-color: #012b55;
-         color: #fff;
+         background-color: rgb(216, 232, 255);
+         color: rgb(23, 53, 99);
        }
        
        .navbar-top .brand {
@@ -29,7 +29,7 @@ body, ul, li, a {
        }
        
        .navbar-top .top-links a {
-         color: #fff;
+        color: rgb(23, 53, 99);
          margin-left: 15px;
          font-size: 0.9rem;
          transition: color 0.3s;
@@ -46,8 +46,8 @@ body, ul, li, a {
          align-items: center;
          
          padding: 5px 20px;
-         background-color: #023b74;
-         color: #fff;
+         background-color: rgb(216, 232, 255);
+         color: rgb(23, 53, 99);
        }
        
        
@@ -60,7 +60,7 @@ body, ul, li, a {
        }
        
        .navbar-bottom .nav-links a {
-         color: #fff;
+        color: rgb(23, 53, 99);
          font-size: 1rem;
          font-weight: 500;
          transition: color 0.3s;
