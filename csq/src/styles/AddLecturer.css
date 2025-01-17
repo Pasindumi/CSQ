@@ -25,9 +25,9 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   width: 900px;
   margin: auto;
-  position: relative;
-  top: 100px;
-  left: 150px;
+  position:absolute;
+  top: 150px;
+  left: 430px;
 }
 
 h1 {

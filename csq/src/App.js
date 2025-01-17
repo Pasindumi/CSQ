@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import AddLecturer from "./components/AddLecturer";
 import Sidebar from "./components/Sidebar";
 import Forms from './components/Forms';
-import "./App.css"; // Add global styles here
+import "./App.css"; 
 import LoginSignup from "./components/LoginSignup";
 import Navbar from "./components/navbar";
 import logo from './logo.svg';

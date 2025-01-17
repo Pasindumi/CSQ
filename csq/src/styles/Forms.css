@@ -7,7 +7,10 @@
     top: 50px;
   }
   body{
-    display: flex;
+    display:flex;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
   }
   .new-forms{
     background-color: #d1e4e4;
@@ -24,8 +27,10 @@
   }
   .forms-header .search-bar {
     position: relative;
-    left: -120px;
+    left: -900px;
     width: 100px;
+    top: 20px;
+
   }
   .new-forms h2{
     color: #615e5e;
@@ -61,6 +66,7 @@
   .recent-forms{
     position: relative;
     top: 100px;
+    width: 1500px;
   }
   .form-templates {
     display: flex;
@@ -124,11 +130,11 @@
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 10px;
-    width: 150px;
+   
     text-align: center;
     background-color: #f9f9f9;
     cursor: pointer;
-    height: 210px;
+    height: 250px;
     position: relative;
     left: 20px;
   }
@@ -155,7 +161,7 @@
   .form-card p {
     margin: 0;
   }
-
+  
   .form-cards p {
     margin: 0;
     position: relative;
@@ -276,13 +282,17 @@
   .recent-forms .form-card-recent p {
     font-weight: bold;
     margin-top: 10px;
+    
   }
   
+
   .recent-forms .form-card-recent span {
     color: #777;
     font-size: 12px;
   }
-  
+  .ppp{
+    color: #5a5d5f;
+  }
   .xyz, .abc {
     border: 1px solid #ccc;
     margin: 20px 0;

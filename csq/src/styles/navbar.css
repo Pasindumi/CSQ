@@ -12,6 +12,10 @@ body, ul, li, a {
                
          font-family: 'Arial', sans-serif;
          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+         position: fixed;
+         display: flex;
+         top: 0px;
+         z-index: 1000;
        }
        
      
@@ -46,7 +50,7 @@ body, ul, li, a {
          display: flex;
          justify-content: space-between;
          align-items: center;
-         
+         width: 1200px;
          padding: 5px 20px;
          background-color: rgb(216, 232, 255);
          color: rgb(23, 53, 99);
