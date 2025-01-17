@@ -33,8 +33,8 @@ const Sidebar = () => {
           </Link>
         </li>
         <li>
-          <Link to="/results">
-            <img src={resultsicon} alt="Results" /> Results
+          <Link to="/createform">
+            <img src={resultsicon} alt="createform" /> Createform
           </Link>
         </li>
         <li>

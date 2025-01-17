@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 100%;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 100px;
+  }
+  
+  p {
+    color: #333;
+  }
+  
+  .stephead {
+    position: relative;
+    color: #00838f;
+    font-size: large;
+    top: 10px;
+  }
+  
+  .hr02 {
+    position: relative;
+    top: -0px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  h2 {
+    position: relative;
+    color: #333;
+    top: 100px;
+  }
+  
+  hr {
+    position: relative;
+    top: 100px;
+  }
+  
+  .form-description {
+    margin-bottom: 20px;
+  }
+  
+  .form-description h3 {
+    color: #00838f;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .timeline {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .timeline-step-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .timeline-step {
+    padding: 15px;
+    background-color: #e0f7fa;
+    border-radius: 50%;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .timeline-step.active {
+    background-color: #00838f;
+    color: white;
+  }
+  
+  .timeline-line {
+    width: 60px;
+    height: 2px;
+    background-color: #e0f7fa;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .timeline-line.active-line {
+    background-color: #00838f;
+  }
+  
+  .step-description {
+    margin-bottom: 20px;
+  }
+  
+  .navigation-buttons {
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background-color: #00838f;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+  }
+  

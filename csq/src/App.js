@@ -3,10 +3,9 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import AddLecturer from "./components/AddLecturer";
 import Sidebar from "./components/Sidebar";
 import Forms from './components/Forms';
+import Createform from './components/createform';
 import "./App.css"; 
-import LoginSignup from "./components/LoginSignup";
-import Navbar from "./components/navbar";
-import logo from './logo.svg';
+
 import "./App.css";
 
 function App() {
@@ -14,7 +13,7 @@ function App() {
     <Router>
       <div className="app-layout">
         <Sidebar />
-        <Navbar />
+        
         <div className="main-content">
           <Routes>
             <Route path="/add-lecturer" element={<AddLecturer />} />
@@ -23,8 +22,9 @@ function App() {
             <Route path="/Forms" element={<Forms />} />
           </Routes>
           <Routes>
-            <Route path="/LoginSignup" element={<LoginSignup />} />
+            <Route path="/createform" element={<Createform />} />
           </Routes>
+         
         </div>
       </div>
     </Router>
